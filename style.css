@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    font-family: 'Cherish Moment', sans-serif ;
+    font-size: 16px;
+    background-color: rgb(190, 246, 248);
+}
+
+body {
+    margin: 0;
+}
+
+.main--text h2 {
+    color:rgb(199, 132, 120);
+    padding: 2rem 2rem;
+}
+
+.copy--primary {
+    color: rgb(0, 0, 0);
+}
+
+.logo-exercise {
+    color: rgb(255, 38, 0);
+    font-size: 3rem;
+   
+}
+
+.navbar__container {
+   display: grid;
+   grid-template-columns: 3fr 9fr;
+   align-items: center;
+   height: 10rem;
+   background-color: rgb(255, 255, 255);
+   width: 100vw;
+   padding: 0 2rem;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+}
+
+.navbar__links {
+    justify-content: end;
+    font-size: 1.8rem;
+}
+
+.navbar__links a {
+    text-decoration: none;
+    color: rgb(245, 11, 11);
+
+}
+
+.navbar__links li {
+    text-transform: uppercase;
+    margin-right: 5rem;
+    
+}
+
+.navbar__links a:hover {
+    color: rgb(22, 22, 7);
+}
+
+.main--text {
+    display: grid;
+    justify-content: center;
+    font-size: 2rem;
+    padding: 5rem 3rem;
+    border-style: solid;
+    margin: 5rem 6rem;
+    background-color: rgb(143, 245, 248);
+    
+}
+
